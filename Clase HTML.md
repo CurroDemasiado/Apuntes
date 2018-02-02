@@ -5,17 +5,17 @@
 
 ![Servidor Web](http://media02.hongkiat.com/accessible-local-web-server/localtunnerl-cover.jpg)
 
-###HTTP
+### HTTP
 HTTP es el protocolo de comunicación que permite las transferencias de información en la WorldWide Web. Así tú puedes navegar por las webs (al igual que Googlebot).
 
-####HTTPS
+### HTTPS
 
 Es un protocolo de aplicación basado en el protocolo HTTP, destinado a la transferencia segura de datos de Hipertexto, es decir, es la versión segura de HTTP.
 
-###HTTP/2
+### HTTP/2
 Protocolo binario con conexión única. El servicio “server push”5​ también conocido como “cache push”, se basa en estimaciones para que el servidor sea capaz de enviar información al usuario antes de que éste la solicite para que la información esté disponible de forma inmediata.
 
-##Tipos de respuestas que da el servidor:
+## Tipos de respuestas que da el servidor:
 
 
 
@@ -33,8 +33,8 @@ Al pedir un *Algo* a un site el servidor te manda una respuesta según código:
   + 500 Condición inesperada
   + Error temporal // Servidor No disponible
 
-####Dependiendo del error decidimos solucionarlo o dejarlo con, ¡*Huye, error!*
-##¿Cómo hacer una redirección?
+#### Dependiendo del error decidimos solucionarlo o dejarlo con, ¡*Huye, error!*
+## ¿Cómo hacer una redirección?
 Se hace a través del fichero de configuración Apache **.htaccess** ![Ojo! Mejor no tocarlo](http://www.i2clipart.com/cliparts/b/d/6/8/clipart-warning-icon-bd68.png)
 
 ¡Pero mejor no tocarlo y delegar en una empresa de servidores!
@@ -42,10 +42,10 @@ Se hace a través del fichero de configuración Apache **.htaccess** ![Ojo! Mejo
 A través de expresiones regulares en el  archivo podemos ordenar redirecciones para nuestro site.
   -> [Web de testeo para htaccess](http://htaccess.mwl.be/)
 
-##¿Cómo no hacer la redirección?
+## ¿Cómo no hacer la redirección?
 + Evitar las redirecciones desde una página --> *Meta Refresh*. Es más lenta, no pasa todo el Link Juice. 
 
-####Contenido Eliminado
+#### Contenido Eliminado
 *Ejemplo*: Si tenemos un producto ya descatalogado o sin Stock
 
 *Soluciones* 404 o 301 a producto /cartegoría o mantenerlo y eliminarlo de búsquedas internas (200), dando alternativas hasta que se reponga.
@@ -56,7 +56,7 @@ A través de expresiones regulares en el  archivo podemos ordenar redirecciones 
  + Mantener el producto y eliminar listados y busqueda internas (200)
  + La página da alternativas a la búsqueda realizada (200)
 
-###Robots.txt
+### Robots.txt
 ![Robot](https://icons8.com/iconizer/files/Human_o2/orig/gnome-robots2.png)
 
 + **user-agent:bot** - Identifica el bot al que va dirigida.
@@ -77,13 +77,13 @@ Cuando bloqueas el acceso a un robot de google no desaparece de los buscadores, 
 
 [**Ejemplo Robots**](http://www.marketingonlinevalencia.com/robots.txt)
 
-###Sitemaps 
+### Sitemaps 
 + Puede ser HTML : *No se debe usar , es en caso de una arquitectura web muy mala.*
 + Puede ser XML  : *El habitual*
 
 El sitemap te ayudará a indexar contenido más rápidamente 
 
-###Title
+### Title
 Completar con las diapositivas
 + Poner siempre tu nombre de marca. En la home debe ser la primera palabra.
 ###Metadescripton
@@ -93,7 +93,7 @@ Completar con las diapositivas
 
 11/18/2017 9:59:20 AM 
 
-###Metas en general  
+### Metas en general  
 Dan información a los buscadores y los navegadores. Hay infinitos. No influyen en el posicionamiento, Google no los lee.
 #####Algunas relevantes:
 ###### HEAD
