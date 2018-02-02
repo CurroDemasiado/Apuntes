@@ -86,7 +86,7 @@ El sitemap te ayudará a indexar contenido más rápidamente
 ### Title
 Completar con las diapositivas
 + Poner siempre tu nombre de marca. En la home debe ser la primera palabra.
-###Metadescripton
+### Metadescripton
 + No tiene ningún valor para el posicionamiento, pero sí en el CTR.
 + El límite de caracteres visibles es de 150
 + Call to Action!
@@ -95,7 +95,7 @@ Completar con las diapositivas
 
 ### Metas en general  
 Dan información a los buscadores y los navegadores. Hay infinitos. No influyen en el posicionamiento, Google no los lee.
-#####Algunas relevantes:
+##### Algunas relevantes:
 ###### HEAD
 
     <meta name="Robots" content="noindex, nofollow">
